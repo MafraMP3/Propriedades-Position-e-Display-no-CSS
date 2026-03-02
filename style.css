@@ -1,0 +1,55 @@
+    #navbar{
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 0 20;
+    }
+    body{
+    background: linear-gradient(#95c0fc, #e6effc);
+    flex-direction: column;
+
+}
+    
+    
+
+    .flex{
+        display: flex;
+    }
+
+    main{   
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 50px;
+        
+        
+    }
+
+    main h3{
+        font-size: 80;
+        align-self: center;
+    }
+
+    .secao{
+        background-color: #e6effc;
+        padding: 15px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .secao:hover{
+    background-color: #e6effc;
+    padding: 15px;
+    margin: 15px;
+        
+    }
+    #img_botao{
+        width: 30px;
+    }
