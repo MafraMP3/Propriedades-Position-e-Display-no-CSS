@@ -46,6 +46,7 @@
         transition: 0.3s;
         display: flex;
         border-radius: 15px;
+        border: black solid 1px;
         
     }
 
