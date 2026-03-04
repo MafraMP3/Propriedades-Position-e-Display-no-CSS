@@ -101,6 +101,7 @@
     padding: 15px;
     border: 1px solid black;
     border-radius: 10px;
+    padding: 15px;
 }
 #inline-block div{
     display: inline-block;
@@ -113,6 +114,16 @@
 }
 #inline-flex div{
     display: inline-block;
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+#inline-flow-root div{
+    display: inline flow-root;
     background: lightblue;
     padding: 20px;
     margin: 5px;
@@ -160,14 +171,17 @@
     grid-template-rows: repeat(3, 100px);
     gap: 15px;
     justify-content: center;
+    
 }
 
 .grid h4{
     background: lightblue;
-    border: 1px solid black;
+
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
+    border: black solid 1px;
 }
 .linha_grid{
     display: inline-grid;
@@ -178,11 +192,9 @@
 }
 .linha_grid h4{
     background: lightblue;
-    border: 1px solid black;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-=======
-    aspect-ratio: 1 / 1;
->>>>>>> 869132005975e8a5f1c1da609ad877b8c7125d5e
+    border: black solid 1px;
 }
