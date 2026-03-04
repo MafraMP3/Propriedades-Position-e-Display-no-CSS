@@ -6,6 +6,7 @@
         color: rgb(0, 0, 0);
         margin: 0px;
         padding: 0 20;
+        position: relative;
     }
     body{
     background: linear-gradient(#95c0fc, #e6effc);
@@ -65,5 +66,10 @@
   transition: 0.4s;
 }
 
+#creditos{
+    position: absolute;
+    left: 50%;
+      transform: translateX(-50%);
+}
 
    
