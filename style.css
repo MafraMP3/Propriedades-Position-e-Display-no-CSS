@@ -48,9 +48,9 @@
         border: black solid 1px;
         width: 600px;      
         max-width: 90%; 
-        
-        
     }
+
+
 
     .secao:hover{
     background-color: #e6effc;
@@ -64,7 +64,7 @@
     }
 
     details div {
-  overflow: hidden;
+  overflow: auto;
   transition: max-height 0.4s ease;
   transition: 0.4s;
 }
@@ -88,7 +88,6 @@
     border: 1px solid black;
     border-radius: 10px;
     margin-top: 10px;
-
 }
 
 #inline div{
@@ -106,6 +105,21 @@
     padding: 20px;
     margin: 5px;
     width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#flex_legal{
+    display: flex;
+    gap: 20px;
+    div{
+    background-color: lightblue;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    }
 }
  
 
@@ -142,6 +156,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
 }
 .linha_grid{
     display: inline-grid;
@@ -156,4 +171,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+=======
+    aspect-ratio: 1 / 1;
+>>>>>>> 869132005975e8a5f1c1da609ad877b8c7125d5e
 }
