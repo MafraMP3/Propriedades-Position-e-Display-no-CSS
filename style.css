@@ -44,7 +44,6 @@
         justify-content: center;
         align-items: center;
         transition: 0.3s;
-        display: flex;
         border-radius: 15px;
         
     }
@@ -77,10 +76,8 @@
    =================================*/
 
 #bloco{
-    display: block;
     background-color: lightblue;
     margin-bottom: 10px;
-    justify-content: center;
 }
 
 #inline{
