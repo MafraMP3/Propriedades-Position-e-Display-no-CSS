@@ -64,7 +64,7 @@
     }
 
     details div {
-  overflow: hidden;
+  overflow: auto;
   transition: max-height 0.4s ease;
   transition: 0.4s;
 }
@@ -106,6 +106,8 @@
     padding: 20px;
     margin: 5px;
     width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
  
 
@@ -142,4 +144,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    aspect-ratio: 1 / 1;
 }
