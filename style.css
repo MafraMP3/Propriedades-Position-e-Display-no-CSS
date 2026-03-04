@@ -46,6 +46,8 @@
         transition: 0.3s;
         border-radius: 15px;
         border: black solid 1px;
+        width: 600px;      
+        max-width: 90%; 
         
         
     }
