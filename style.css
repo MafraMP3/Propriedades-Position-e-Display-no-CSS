@@ -45,6 +45,7 @@
         align-items: center;
         transition: 0.3s;
         border-radius: 15px;
+        border: black solid 1px;
         
     }
 
@@ -67,8 +68,8 @@
 
 #creditos{
     position: absolute;
-    left: 50%;
-      transform: translateX(-50%);
+    left: 40%;
+    
 }
 
    /* ===============================
