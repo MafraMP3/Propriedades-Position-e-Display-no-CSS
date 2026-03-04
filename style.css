@@ -128,4 +128,18 @@
     background-color: #cef3d7;
     padding: 5;
 }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 15px;
+    justify-content: center;
+}
 
+.grid h4{
+    background: lightblue;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
