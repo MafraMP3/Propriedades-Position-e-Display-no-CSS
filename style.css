@@ -27,6 +27,8 @@
         margin-top: 25px;
         max-width: 900px;
         margin: 25px auto;
+        display: flex;
+        flex-direction: column;
         
         
     }
@@ -75,6 +77,7 @@
     
 }
 
+
    /* ===============================
    =========elementos doido==========
    =================================*/
@@ -108,8 +111,17 @@
     border: 1px solid black;
     border-radius: 10px;
 }
+#inline-flex div{
+    display: inline-block;
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
 
-#flex_legal{
+}
+#flex_legal {
     display: flex;
     gap: 20px;
     div{
@@ -170,4 +182,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+=======
+    aspect-ratio: 1 / 1;
+>>>>>>> 869132005975e8a5f1c1da609ad877b8c7125d5e
 }
