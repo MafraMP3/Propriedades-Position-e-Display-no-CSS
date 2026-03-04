@@ -73,4 +73,19 @@
     
 }
 
-   
+   /* ===============================
+   =========elementos doido==========
+   =================================*/
+
+#bloco{
+    display: block;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#inline{
+    display: inline;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
