@@ -79,9 +79,15 @@
    =========elementos doido==========
    =================================*/
 
-#bloco{
+#bloco div{
+    display: block;
+    gap: 20px;
     background-color: lightblue;
     margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 #inline{
