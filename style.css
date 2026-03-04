@@ -127,4 +127,12 @@
     background-color: #cef3d7;
     padding: 5;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    background-color: #dbe6f5;
+    grid-template-rows: 100px 100px 100px; 
+    gap: 10;
+    padding: 5;
+}
 
