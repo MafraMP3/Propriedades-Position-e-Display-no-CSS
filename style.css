@@ -27,6 +27,8 @@
         margin-top: 25px;
         max-width: 900px;
         margin: 25px auto;
+        display: flex;
+        flex-direction: column;
         
         
     }
@@ -75,6 +77,7 @@
     
 }
 
+
    /* ===============================
    =========elementos doido==========
    =================================*/
@@ -101,6 +104,15 @@
     border-radius: 10px;
 }
 #inline-block div{
+    display: inline-block;
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#inline-flex div{
     display: inline-block;
     background: lightblue;
     padding: 20px;
