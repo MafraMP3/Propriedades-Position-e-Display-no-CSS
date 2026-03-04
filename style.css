@@ -182,5 +182,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+=======
     aspect-ratio: 1 / 1;
+>>>>>>> 869132005975e8a5f1c1da609ad877b8c7125d5e
 }
