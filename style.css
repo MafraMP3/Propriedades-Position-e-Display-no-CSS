@@ -130,8 +130,8 @@
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
     gap: 15px;
     justify-content: center;
 }
