@@ -90,10 +90,14 @@
     margin-top: 10px;
 }
 
-#inline{
+#inline div{
+    margin-top: 30px;
     display: inline;
+    gap: 10px;
     background-color: lightblue;
-    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
  
 
