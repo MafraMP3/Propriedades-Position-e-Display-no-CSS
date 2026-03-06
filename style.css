@@ -82,9 +82,16 @@
 #creditos{
     position: absolute;
     left: 40%;
+
     
 }
+.msg{
+    display: none;
+}
 
+.texto:hover .msg{
+    display: inline;
+}
 
    /* ===============================
    =========elementos doido==========
@@ -140,7 +147,7 @@
     border-radius: 10px;
 }
 
-#block_flex{
+.block_flex{
     display: block flex;
     background-color: lightblue;
     padding: 15px;
