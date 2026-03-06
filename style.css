@@ -176,6 +176,16 @@
     border-radius: 10px;
 }
 
+#block_flow-root{
+    display: flow-root;
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 #inline_flow div{
     margin-top: 30px;
     display: inline;
@@ -278,11 +288,21 @@
     border: black solid 1px;
 }
     
-summary{
+.summary{
     padding: 15px;  
     cursor: pointer;
     border-radius: 5px;
 }
 .block{
     display: block;
+}
+
+.float{
+    float: right;
+    background-color: rgb(138, 203, 224);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
 }
