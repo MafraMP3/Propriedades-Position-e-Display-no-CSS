@@ -11,14 +11,14 @@
         width: 100%;
         top: 0;
         background-color: #95c0fc;
-
-
     }
+
     body{
     background: linear-gradient(#95c0fc, #e6effc);
     flex-direction: column;
     border-radius: 15px;
-    
+    font-family: "Roboto", sans-serif;
+
 
 }
     
@@ -42,10 +42,11 @@
     }
 
     main h3{
-        font-size: 80;
+        font-size: 90;
         align-self: center;
         margin-bottom: 1px;
         margin-top: 30;
+            font-family: "Bebas Neue", sans-serif;
     }
 
     .secao{
@@ -240,6 +241,7 @@
     color: black;
     bottom: 1px;
     right: 20px;
+    font-size: smaller;
 }
 
 .position_fixed_dois{
@@ -248,6 +250,7 @@
     bottom: 20px; 
     margin-left: 10px;
     margin-bottom: 50px;
+    font-size: smaller;
 }
 
 #inline__flex{
