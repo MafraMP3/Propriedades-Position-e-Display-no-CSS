@@ -45,6 +45,7 @@
         font-size: 80;
         align-self: center;
         margin-bottom: 1px;
+        margin-top: 30;
     }
 
     .secao{
@@ -66,7 +67,7 @@
     background-color: #e6effc;
     padding: 30px;
     margin: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
         
     }
     #img_botao{
