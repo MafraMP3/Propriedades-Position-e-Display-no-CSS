@@ -145,6 +145,16 @@
     margin-top: 20px;
     }
 }
+
+#flow-root{
+    display:flow-root;
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
  
 
 /* ===============================
@@ -222,3 +232,4 @@
      border-radius: 15px;
     border: black solid 1px;
 }
+    
