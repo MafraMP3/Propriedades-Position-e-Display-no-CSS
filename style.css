@@ -146,14 +146,18 @@
     }
 }
 
-#flow-root{
-    display:flow-root;
+#flow-root div{
+    display: flow-root;
     background: lightblue;
     padding: 20px;
     margin: 5px;
-    width: 100px;
+    width: auto;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+#block_flow{
+    
 }
  
 
@@ -210,14 +214,6 @@
     border: black solid 1px;
 }
 
-.position_fixed{
-    position: fixed;
-    color: black;
-    bottom: 1px;
-    left: 20px;
-    width: 100%;
-}
-
 #inline__flex{
     display: inline flex;
     background-color: lightblue;
@@ -226,4 +222,8 @@
      border-radius: 15px;
     border: black solid 1px;
     
+}
+
+.flutuante{
+    float: left;
 }
