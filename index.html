@@ -175,19 +175,18 @@
 
 
             <div class="secao">
-                <details>
-                    <summary>display: flow-root</summary>
-                    <div id="flow-root">
-                        <div>
-                            <div class="flutuante">Elemento 1</div>
-                            <div class="flutuante">Elemento 2</div>
-                            <div class="flutuante">Elemento 3</div>
-                            <div class="flutuante">Elemento 4</div>
+                    <details>
+                        <summary>display: flow-root</summary>
+                        <div id="flow-root">
+                            <div>
+                                <div class="float">Elemento 1</div>
+                                <div class="float">Elemento 2</div>
+                                <div class="float">Elemento 3</div>
+                                <div class="float">Elemento 4</div>
+                            </div>
                         </div>
-                    </div>
-                    <p>O valor CSS "display: flow-root" força o elemento pai para envolver os elementos filhos
-                        flutuantes.</p>
-                </details>
+                        <p>O valor CSS "display: flow-root" força o elemento pai para envolver os elementos filhos flutuantes.</p>
+                    </details>
             </div>
 
             <div class="secao">
@@ -317,9 +316,13 @@
             <div class="secao">
                 <details>
                     <summary>display: block flow-root</summary>
-                    <div>
-                        <p>Aqui estão as informações escondidas.</p>
-                    </div>
+                     <div id="block_flow-root">
+                        <div class="float"></div>
+                        <div class="float"></div>
+                        <div class="float"></div>
+                        <div class="float"></div>
+                        <div class="float"></div>
+                        </div>
                 </details>
             </div>
 
@@ -417,7 +420,7 @@
     </main>
 </body>
 <div class="position_fixed_dois">
-    <p>Site feito com intenções educativas</p>
+    <p>Site feito com segundas intenções</p>
 </div>
 
 </html>
