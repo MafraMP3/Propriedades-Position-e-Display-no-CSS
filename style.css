@@ -4,11 +4,11 @@
         align-items: center;
         padding: 20px;
         color: rgb(0, 0, 0);
-        margin-left: -8;
-        margin-right: 0;
-        padding: 0 8;
         position: sticky;
         width: 100%;
+        padding: 0 8;
+        margin-left: -8;
+        margin-right: 0;
         top: 0;
         background-color: #95c0fc;
     }
@@ -227,7 +227,28 @@
     border-radius: 10px;
     padding: 15px;
 }
- 
+
+#rodape{
+    background-color:  #95c0fc;
+    margin: 10 0;
+    width: 100%;
+    padding: 40 8;
+    margin-left: -8;
+    margin-right: 0;
+}
+.flexrodape{
+    display: flex;
+    justify-content: center;
+}
+.yope{
+    margin: 20;
+    background-color: yellow;
+    border-radius: 10px;
+    ul{
+        margin: 0;
+        list-style:none;
+    }
+}
 
 /* ===============================
    =========elementos FIXos==========
