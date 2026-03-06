@@ -12,7 +12,6 @@
         top: 0;
         background-color: #95c0fc;
 
-
     }
     body{
     background: linear-gradient(#95c0fc, #e6effc);
@@ -22,8 +21,6 @@
 
 }
     
-    
-
     .flex{
         display: flex;
     }
@@ -264,4 +261,6 @@ summary{
     cursor: pointer;
     border-radius: 5px;
 }
-
+.block{
+    display: block;
+}
