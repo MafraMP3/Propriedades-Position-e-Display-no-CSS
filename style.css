@@ -199,3 +199,11 @@
     justify-content: center;
     border: black solid 1px;
 }
+
+.position_fixed{
+    position: fixed;
+    color: black;
+    bottom: 1px;
+    left: 20px;
+    width: 100%;
+}
