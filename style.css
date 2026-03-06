@@ -258,7 +258,21 @@
     ul{
         margin: 0;
         list-style:none;
+        padding: 10;
+        text-align: justify;
+        a{
+            color: blue;
+        }
     }
+} 
+
+.textorodape{
+    font-size: 15px;
+    margin: 3;
+}
+
+.elementotabela{
+    margin: 10px;
 }
 
 
