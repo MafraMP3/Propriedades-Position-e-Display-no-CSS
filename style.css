@@ -205,7 +205,13 @@
     color: black;
     bottom: 1px;
     left: 20px;
-    width: 100%;
+}
+
+.position_fixed_dois{
+    position: fixed;
+    color: black;
+    bottom: 1px;
+    right: 20px;
 }
 
 #inline__flex{
@@ -215,5 +221,4 @@
     gap: 15px;
      border-radius: 15px;
     border: black solid 1px;
-    
 }
