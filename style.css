@@ -234,12 +234,15 @@
 }
 
 #rodape{
-    background-color:  #95c0fc;
+
     margin: 10 0;
     width: 100%;
     padding: 40 8;
     margin-left: -8;
     margin-right: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    background: rgba(149,192,252,0.8);
 }
 .flexrodape{
     display: flex;
