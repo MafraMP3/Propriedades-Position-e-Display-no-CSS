@@ -12,6 +12,19 @@
         top: 0;
         background-color: #95c0fc;
     }
+    .info{
+        display: none;
+        position: absolute;
+        background-color: #7eb0f5;
+        color: rgb(0, 0, 0);
+        top: 65px;
+        padding: 15px;
+    }
+    #navbar:hover{
+        .info{
+            display: block;
+        }
+    }
 
     body{
     background: linear-gradient(#95c0fc, #e6effc);
@@ -19,11 +32,11 @@
     border-radius: 15px;
     font-family: "Roboto", sans-serif;
 
-
 }
     
     .flex{
         display: flex;
+        position: static;
     }
 
     main{   
@@ -46,7 +59,7 @@
         margin-top: 30;
             font-family: "Bebas Neue", sans-serif;
     }
-
+    
     .secao{
         background-color: #e6effc;
         padding: 25px;
@@ -82,9 +95,16 @@
 #creditos{
     position: absolute;
     left: 40%;
+
     
 }
+.msg{
+    display: none;
+}
 
+.texto:hover .msg{
+    display: inline;
+}
 
    /* ===============================
    =========elementos doido==========
@@ -140,7 +160,7 @@
     border-radius: 10px;
 }
 
-#block_flex{
+.block_flex{
     display: block flex;
     background-color: lightblue;
     padding: 15px;
@@ -167,6 +187,16 @@
 }
 
 #flow-root div{
+    display: flow-root;
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#block_flow-root{
     display: flow-root;
     background: lightblue;
     padding: 20px;
@@ -299,11 +329,26 @@
     border: black solid 1px;
 }
     
-summary{
+.summary{
     padding: 15px;  
     cursor: pointer;
     border-radius: 5px;
 }
 .block{
     display: block;
+}
+
+.float{
+    float: right;
+    background-color: rgb(138, 203, 224);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }

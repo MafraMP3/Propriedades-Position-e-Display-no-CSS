@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Displays e Positions</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <link rel="icon" href="assets/Images_colugo.png">
 </head>
 
 <div id="navbar">
+    <span class="info">Isso usa "position:sticky"</span>
     <H2>Propriedades Position e Display no CSS</H2>
-    <p id="creditos">Caio Mafra, Davi Sehnem, Lucas Acacio e Kauan Fix</p>
+    <p id="creditos" title="creditos do trabalho">Caio Mafra, Davi Sehnem, Lucas Acacio e Kauan Fix</p>
     <ul>
         <li id="arquivo">
             <a
-                href="https://docs.google.com/document/d/1Hx5uw1nzSJTLPFGI_KGIb8w8wcr54cz4275taFd2yho/edit?usp=sharing">Arquivos</a>
+                href="assets/Propriedades Position e Display no CSS.pdf">Arquivos</a>
         </li>
     </ul>
 </div>
@@ -175,19 +177,18 @@
 
 
             <div class="secao">
-                <details>
-                    <summary>display: flow-root</summary>
-                    <div id="flow-root">
-                        <div>
-                            <div class="flutuante">Elemento 1</div>
-                            <div class="flutuante">Elemento 2</div>
-                            <div class="flutuante">Elemento 3</div>
-                            <div class="flutuante">Elemento 4</div>
+                    <details>
+                        <summary>display: flow-root</summary>
+                        <div id="flow-root">
+                            <div>
+                                <div class="float">Elemento 1</div>
+                                <div class="float">Elemento 2</div>
+                                <div class="float">Elemento 3</div>
+                                <div class="float">Elemento 4</div>
+                            </div>
                         </div>
-                    </div>
-                    <p>O valor CSS "display: flow-root" força o elemento pai para envolver os elementos filhos
-                        flutuantes.</p>
-                </details>
+                        <p>O valor CSS "display: flow-root" força o elemento pai para envolver os elementos filhos flutuantes.</p>
+                    </details>
             </div>
 
             <div class="secao">
@@ -232,40 +233,40 @@
             <div class="secao">
                 <details>
                     <summary>Display: block flex</summary>
-                    <div id="block_flex">
-                        <div id="block_flex">
+                    <div class="block_flex">
+                        <div class="block_flex">
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                         </div>
-                        <div id="block_flex">
+                        <div class="block_flex">
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                         </div>
-                        <div id="block_flex">
+                        <div class="block_flex">
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                         </div>
                     </div>
-                    <div id="block_flex">
-                        <div id="block_flex">
+                    <div class="block_flex">
+                        <div class="block_flex">
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                         </div>
-                        <div id="block_flex">
+                        <div class="block_flex">
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
                         </div>
-                        <div id="block_flex">
+                        <div class="block_flex">
                             <div>div</div>
                             <div>div</div>
                             <div>div</div>
@@ -317,9 +318,13 @@
             <div class="secao">
                 <details>
                     <summary>display: block flow-root</summary>
-                    <div>
-                        <p>Aqui estão as informações escondidas.</p>
-                    </div>
+                     <div id="block_flow-root">
+                        <div class="float"></div>
+                        <div class="float"></div>
+                        <div class="float"></div>
+                        <div class="float"></div>
+                        <div class="float"></div>
+                        </div>
                 </details>
             </div>
 
@@ -406,7 +411,8 @@
             <div id="direitos">
                 <div>
                     <div class="position_fixed">
-                        <p>Todos os direitos reservados a Caio Mafra, Lucas Acacio, Kauan Fix, Davi Sehnem</p>
+                        <p class="texto">Todos os direitos reservados a Caio Mafra, Lucas Acacio, Kauan Fix, Davi Sehnem
+                        </p>
                     </div>
                 </div>
             </div>
@@ -435,7 +441,7 @@
 </body>
 
 <div class="position_fixed_dois">
-    <p>Site feito com intenções educativas</p>
+    <p>Este site foi desenvolvido com fins educativos.</p>
 </div>
 
 </html>
