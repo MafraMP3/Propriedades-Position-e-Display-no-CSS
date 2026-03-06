@@ -12,6 +12,19 @@
         top: 0;
         background-color: #95c0fc;
     }
+    .info{
+        display: none;
+        position: absolute;
+        background-color: #7eb0f5;
+        color: rgb(0, 0, 0);
+        top: 65px;
+        padding: 15px;
+    }
+    #navbar:hover{
+        .info{
+            display: block;
+        }
+    }
 
     body{
     background: linear-gradient(#95c0fc, #e6effc);
@@ -19,11 +32,11 @@
     border-radius: 15px;
     font-family: "Roboto", sans-serif;
 
-
 }
     
     .flex{
         display: flex;
+        position: static;
     }
 
     main{   
