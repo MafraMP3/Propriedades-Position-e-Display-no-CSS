@@ -145,6 +145,16 @@
     margin-top: 20px;
     }
 }
+
+#flow-root{
+    display:flow-root;
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
  
 
 /* ===============================
@@ -200,6 +210,20 @@
     border: black solid 1px;
 }
 
+.position_fixed{
+    position: fixed;
+    color: black;
+    bottom: 1px;
+    left: 20px;
+}
+
+.position_fixed_dois{
+    position: fixed;
+    color: black;
+    bottom: 1px;
+    right: 20px;
+}
+
 #inline__flex{
     display: inline flex;
     background-color: lightblue;
@@ -207,8 +231,8 @@
     gap: 15px;
      border-radius: 15px;
     border: black solid 1px;
-    
 }
+    
 summary{
     padding: 15px;  
     cursor: pointer;
