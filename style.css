@@ -4,13 +4,21 @@
         align-items: center;
         padding: 20px;
         color: rgb(0, 0, 0);
-        margin: 0px;
-        padding: 0 20;
-        position: relative;
+        margin-left: -8;
+        margin-right: 0;
+        padding: 0 8;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        background-color: #95c0fc;
+
+
     }
     body{
     background: linear-gradient(#95c0fc, #e6effc);
     flex-direction: column;
+    border-radius: 15px;
+    
 
 }
     
@@ -214,14 +222,15 @@
     position: fixed;
     color: black;
     bottom: 1px;
-    left: 20px;
+    right: 20px;
 }
 
 .position_fixed_dois{
-    position: fixed;
+    position: sticky; 
     color: black;
-    bottom: 1px;
-    right: 20px;
+    bottom: 20px; 
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
 
 #inline__flex{
