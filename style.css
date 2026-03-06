@@ -41,7 +41,7 @@
 
     .secao{
         background-color: #e6effc;
-        padding: 15px;
+        padding: 25px;
         margin: 20px;
         justify-content: center;
         align-items: center;
@@ -56,7 +56,7 @@
 
     .secao:hover{
     background-color: #e6effc;
-    padding: 15px;
+    padding: 30px;
     margin: 15px;
     border-radius: 5px;
         
@@ -113,7 +113,7 @@
     border-radius: 10px;
 }
 #inline-flex div{
-    display: inline-block;
+    display: inline-flex;
     background: lightblue;
     padding: 20px;
     margin: 5px;
@@ -132,7 +132,7 @@
     border-radius: 10px;
 
 }
-#flex_legal {
+#flex_legal{
     display: flex;
     gap: 20px;
     div{
@@ -146,7 +146,15 @@
     }
 }
 
-
+#flow-root{
+    display:flow-root;
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
  
 
 /* ===============================
@@ -202,3 +210,12 @@
     border: black solid 1px;
 }
 
+#inline__flex{
+    display: inline flex;
+    background-color: lightblue;
+    padding: 15px;
+    gap: 15px;
+     border-radius: 15px;
+    border: black solid 1px;
+    
+}
