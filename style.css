@@ -97,7 +97,7 @@
     margin-top: 30px;
     display: inline;
     gap: 10px;
-    background-color: rgb(233, 173, 163);
+    background-color: lightblue;
     padding: 15px;
     border: 1px solid black;
     border-radius: 10px;
@@ -209,3 +209,9 @@
     border: black solid 1px;
     
 }
+summary{
+    padding: 15px;  
+    cursor: pointer;
+    border-radius: 5px;
+}
+
