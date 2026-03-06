@@ -131,8 +131,20 @@
     width: 100px;
     border: 1px solid black;
     border-radius: 10px;
-
 }
+
+#block_flex{
+    display: block flex;
+    background-color: lightblue;
+    padding: 15px;
+    gap: 15px;
+    border-radius: 15px;
+    border: black solid 1px;
+    margin-top: 10;
+}
+
+
+
 #flex_legal{
     display: flex;
     gap: 20px;
@@ -147,14 +159,18 @@
     }
 }
 
-#flow-root{
-    display:flow-root;
+#flow-root div{
+    display: flow-root;
     background: lightblue;
     padding: 20px;
     margin: 5px;
-    width: 100px;
+    width: auto;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+#block_flow{
+    
 }
  
 
