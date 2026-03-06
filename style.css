@@ -10,7 +10,9 @@
         margin-left: -8;
         margin-right: 0;
         top: 0;
-        background-color: #95c0fc;
+        background: rgba(149,192,252,0.8);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        backdrop-filter: blur(5px);
     }
     .info{
         display: none;
@@ -76,10 +78,9 @@
         align-items: center;
         transition: 0.3s;
         border-radius: 15px;
-        border: black solid 1px;
         width: 600px;      
         max-width: 90%;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     }
 
 
