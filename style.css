@@ -26,6 +26,13 @@
         }
     }
 
+        
+    footer p:hover{
+        .info{
+            display: block;
+        }
+    }
+
     body{
     background: linear-gradient(#95c0fc, #e6effc);
     flex-direction: column;
@@ -97,13 +104,6 @@
     left: 40%;
 
     
-}
-.msg{
-    display: none;
-}
-
-.texto:hover .msg{
-    display: inline;
 }
 
    /* ===============================
@@ -330,4 +330,7 @@
 a{
     color: black;
     text-decoration: none;
+}
+summary{
+    cursor: pointer;
 }
