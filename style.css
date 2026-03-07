@@ -13,6 +13,7 @@
         background: rgba(149,192,252,0.8);
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         backdrop-filter: blur(5px);
+        z-index: 3;
     }
     .info{
         display: none;
@@ -237,10 +238,10 @@
 }
 
 #rodape{
-
     margin: 10 0;
     width: 100%;
     padding: 20 8;
+    padding-bottom: 0;
     margin-left: -8;
     margin-right: 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -261,7 +262,7 @@
         margin: 0;
         list-style:none;
         padding: 10;
-        text-align: justify;
+        text-align: center;
         a{
             color: rgb(18, 18, 250);
         }
@@ -290,6 +291,7 @@
     width: 200px;
     height: 200px;
     margin: 0 20;
+    border-radius: 10px;
 }
 
 /* ===============================
@@ -351,6 +353,7 @@
     bottom: 1px;
     right: 20px;
     font-size: smaller;
+    z-index: 2;
 }
 
 .position_fixed_dois{
