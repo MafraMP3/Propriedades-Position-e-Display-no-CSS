@@ -240,7 +240,7 @@
 
     margin: 10 0;
     width: 100%;
-    padding: 40 8;
+    padding: 20 8;
     margin-left: -8;
     margin-right: 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -249,22 +249,33 @@
 }
 .flexrodape{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .yope{
     margin: 20;
-    background-color: yellow;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 5px;
+    padding: 0 20;
     ul{
         margin: 0;
         list-style:none;
         padding: 10;
         text-align: justify;
         a{
-            color: blue;
+            color: rgb(18, 18, 250);
         }
     }
 } 
+
+#titulorodape{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#flexrodapetexto{
+    text-align: center;
+}
 
 .textorodape{
     font-size: 15px;
@@ -272,9 +283,14 @@
 }
 
 .elementotabela{
-    margin: 10px;
+    margin:30 10;
 }
 
+.gatogif{
+    width: 200px;
+    height: 200px;
+    margin: 0 20;
+}
 
 /* ===============================
    =========elementos FIXos==========
