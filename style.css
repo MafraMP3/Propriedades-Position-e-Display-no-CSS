@@ -74,7 +74,6 @@
     
     .secao{
         background-color: #e6effc;
-        padding: 25px;
         margin: 20px;
         justify-content: center;
         align-items: center;
@@ -90,7 +89,7 @@
 
     .secao:hover{
     background-color: #e6effc;
-    padding: 30px;
+    padding: 5px;
     margin: 15px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -103,17 +102,21 @@
     }
 
     details div {
-  overflow: auto;
-  transition: max-height 0.4s ease;
-  transition: 0.4s;
+        overflow: auto;
+        transition: max-height 0.4s ease;
+        transition: 0.4s;
 }
 
 #creditos{
     position: absolute;
     left: 40%;
-
-    
 }
+
+summary{
+    padding: 25px;
+}
+
+
 
    /* ===============================
    =========elementos doido==========
@@ -370,7 +373,7 @@
     background-color: lightblue;
     padding: 15px;
     gap: 15px;
-     border-radius: 15px;
+    border-radius: 15px;
     border: black solid 1px;
 }
     
