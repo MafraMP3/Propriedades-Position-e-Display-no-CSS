@@ -82,14 +82,13 @@
         width: 600px;      
         max-width: 90%;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        padding: 20px;
         
     }
 
 
-
     .secao:hover{
     background-color: #e6effc;
-    padding: 5px;
     margin: 15px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
